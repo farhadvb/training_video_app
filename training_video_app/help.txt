@@ -1,0 +1,4 @@
+
+git remote add origin git@github.com:farhadvb/training_video_app.git
+git branch -M main
+git push -u origin main

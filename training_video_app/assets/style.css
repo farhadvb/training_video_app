@@ -1,0 +1,131 @@
+/* فونت و تنظیم کلی */
+html,
+body,
+[class*="css"] {
+    direction: rtl;
+    text-align: right;
+    font-family: Tahoma, sans-serif;
+}
+
+/* فاصله کلی صفحه */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1300px;
+}
+
+/* هدر اصلی */
+.hero {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    padding: 28px 32px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.20);
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    opacity: 0.92;
+}
+
+/* تیتر سکشن */
+.section-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 18px 0 14px 0;
+    color: #111827;
+}
+
+/* باکس ویدیوی انتخاب‌شده */
+.video-box {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
+}
+
+.video-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.video-meta {
+    display: inline-block;
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.video-description {
+    color: #4b5563;
+    line-height: 1.8;
+    font-size: 0.98rem;
+}
+
+/* کارت ویدیو */
+.card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.card-category {
+    display: inline-block;
+    background: #ecfeff;
+    color: #0f766e;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #4b5563;
+    font-size: 0.93rem;
+    line-height: 1.7;
+    min-height: 70px;
+}
+
+/* placeholder تصویر */
+.thumbnail-placeholder {
+    height: 180px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #e5e7eb, #cbd5e1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #374151;
+    font-weight: 700;
+    font-size: 1rem;
+}

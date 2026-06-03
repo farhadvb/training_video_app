@@ -1,0 +1,30 @@
+[
+  {
+    "title": "آشنایی با ایمنی محیط کار",
+    "category": "ایمنی",
+    "description": "در این ویدیو با اصول اولیه ایمنی در محیط کار و نکات مهم روزمره آشنا می‌شوید.",
+    "thumbnail": "thumbnails/safety_intro.jpg",
+    "video": "videos/safety_intro.mp4"
+  },
+  {
+    "title": "ایمنی در برابر آتش‌سوزی",
+    "category": "ایمنی",
+    "description": "آموزش نکات ضروری برای پیشگیری و واکنش صحیح در شرایط آتش‌سوزی.",
+    "thumbnail": "thumbnails/fire_safety.jpg",
+    "video": "videos/fire_safety.mp4"
+  },
+  {
+    "title": "آموزش مقدماتی ERP شرکت",
+    "category": "نرم‌افزارها",
+    "description": "آشنایی مقدماتی با سامانه ERP شرکت و فرآیندهای اصلی آن.",
+    "thumbnail": "thumbnails/erp_intro.jpg",
+    "video": "videos/erp_intro.mp4"
+  },
+  {
+    "title": "آیین‌نامه ورود و شروع همکاری",
+    "category": "منابع انسانی",
+    "description": "مروری بر قوانین، فرآیندها و مراحل شروع همکاری برای کارکنان جدید.",
+    "thumbnail": "thumbnails/onboarding.jpg",
+    "video": "videos/onboarding.mp4"
+  }
+]
